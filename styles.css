@@ -1,0 +1,69 @@
+@import url(./Inter/Inter-Black.woff);
+@import url(./Inter/Inter-Black.woff2);
+@import url(./Inter/Inter-Bold.woff);
+@import url(./Inter/Inter-Bold.woff2);
+
+.page {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52;
+  margin-left: 48px;
+  margin-top: 28px;
+}
+
+.header__language-links {
+  margin: 48px 48px 0 0;
+  list-style: none;
+  display: flex;
+  align-content: space-between;
+}
+
+.header__language-link {
+  text-decoration: none;
+}
+
+.header__language-link:hover {
+  text-decoration: underline;
+}
+
+.header__language-link:first-child {
+  padding-right: 18px;
+}
+
+.shelf {
+  display: flex;
+  justify-content: center;
+
+}
+
+.shelf__title {
+  width: 720px;
+  height: 200px;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  margin: 56px auto 0;
+}
+
+.shelf__subtitle {
+  width: 640px;
+  height: 72px;
+  margin: 32px auto 0;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+
