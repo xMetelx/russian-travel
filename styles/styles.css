@@ -7,30 +7,40 @@
   font-family: 'Inter', Arial, sans-serif;
   background-color: #2A2C2F;
   color: #FFFFFF;
+  max-width: 1280px;
+  max-height: 6875px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antiaLiased;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  margin: 0;
 }
 
 .header__logo {
   width: 176px;
-  height: 52;
+  height: 52px;
   margin-left: 48px;
   margin-top: 28px;
 }
 
 .header__language-links {
   margin: 48px 48px 0 0;
+  padding: 0;
   list-style: none;
   display: flex;
   align-content: space-between;
+  width: 78px;
+  height: 28px;
 }
 
 .header__language-link {
   text-decoration: none;
+  width: 30px;
+  height: 28px;
 }
 
 .header__language-link:hover {
@@ -41,26 +51,27 @@
   padding-right: 18px;
 }
 
-.shelf {
-  display: flex;
-  justify-content: center;
 
+.shelf {
+ margin-bottom: 114px;
 }
 
 .shelf__title {
   width: 720px;
   height: 200px;
+  font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
-  margin: 56px auto 0;
+  margin: 56px auto 32px;
 }
 
 .shelf__subtitle {
   width: 640px;
   height: 72px;
-  margin: 32px auto 0;
+  margin: 0 auto 64px;
+  font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
@@ -68,18 +79,305 @@
 }
 
 .shelf__image {
-  width: 984px;
+  max-width: 984px;
   height: 615px;
   display: flex;
-  margin: 64 auto;
-  
+  justify-content: center;
+  margin: auto;
 }
 
 .shelf__link{
   width: 158px;
   height: 14px;
   font-size: 10px;
+  font-style: normal;
+  font-weight: normal;
   line-height: 14px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  margin: 0;
+  margin-left: 148px;
+  margin-top: 8px;
+}
+
+.two-lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 148px;
+}
+
+.two-lines__title {
+  width: 690px;
+  height: 58px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.two-lines__paragraph {
+  width: 690px;
+  height: 208px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 0;
+  padding: 40px 0 33px;
+}
+
+.two-lines__list {
+  width: 690px;
+  height: 90px;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 18px;
+  font-weight: normal;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.two-lines__list_font_weight{
+  font-weight: bold;
+}
+
+.images{
+  margin-top: 92px;
+}
+
+.image__cards{
+  justify-content: center;
+  width: 1280px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(3, 213px);
+  gap: 16px;
+}
+
+.image__card {
+ width: 284px;
+ height: 213px;
+}
+
+.descriptions {
+  margin: 92px 148px;
+}
+
+.cards {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.cards__list {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 80px;
+}
+
+.cards__list:last-child {
+  padding-bottom: 0;
+}
+
+.cards__list_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-right: 40px;
+}
+
+.cards__title {
+  display: flex;
+  align-items: flex-end;
+  width: 460px;
+  min-height: 76px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+}
+
+.cards__image {
+  width: 460px;
+  height: 460px;
+  padding-top: 48px;
+}
+
+.cards__list_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.cards__list_right:last-child {
+  padding: 0;
+}
+
+.cards__url{  
+  text-align: left;
+  margin: 106px 0 12px;
+  padding: 0;
+  width: 456px;
+  height: 12px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.cards__link {
+  width: 456px;
+  height: 22px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  display: flex;
+  padding-bottom: 48px;
+  color: #FFFFFF;
+}
+
+.cards__link:hover {
+  opacity: .8;
+}
+
+.cards__paragraph {
+  width: 484px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+  padding-bottom: 26px;
+}
+
+.railway {
+  background-image: url(../images-3/cover-trains.jpg);
+  width: 1184px;
+  height: 740px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.railway::before {
+  background: #2A2C2F;
+  opacity: .3;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.railway:hover::before {
+  opacity: .8;
+}
+
+.railway__title{
+  width: 560px;
+  height: 152px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+
+}
+
+.railway__subtitle {
+  width: 360px;
+  height: 66px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding-top: 32px;
+}
+
+.railway__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 245px;
+}
+
+.railway__link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer {
+  padding-top: 94px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding-bottom: 24px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.footer__navigation-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__navigation-link {
+  text-decoration: none;
+  padding-right: 18px;
+  color: #FFFFFF;
+  width: 106px;
+  height: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__author{
+  margin: 0;
+  width: 186px;
+  height: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+
+
+  
 }
