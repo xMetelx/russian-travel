@@ -20,8 +20,8 @@
 }
 
 .header__logo {
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
+  max-height: 52px;
   margin-left: 48px;
   margin-top: 28px;
 }
@@ -32,14 +32,12 @@
   list-style: none;
   display: flex;
   align-content: space-between;
-  width: 78px;
-  height: 28px;
 }
 
 .header__language-link {
   text-decoration: none;
-  width: 30px;
-  height: 28px;
+  max-width: 30px;
+  max-height: 28px;
   color: #FFFFFF;
 }
 
@@ -52,12 +50,12 @@
 }
 
 .shelf {
- margin-bottom: 114px;
+ margin-bottom: 92px;
 }
 
 .shelf__title {
-  width: 720px;
-  height: 200px;
+  max-width: 720px;
+  max-height: 200px;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -67,8 +65,8 @@
 }
 
 .shelf__subtitle {
-  width: 640px;
-  height: 72px;
+  max-width: 640px;
+  max-height: 72px;
   margin: 0 auto 64px;
   font-style: normal;
   font-weight: normal;
@@ -78,16 +76,16 @@
 }
 
 .shelf__image {
-  width: 984px;
-  height: 615px;
+  max-width: 984px;
+  max-height: 615px;
   display: flex;
   justify-content: center;
   margin: auto;
 }
 
 .shelf__link{
-  width: 158px;
-  height: 14px;
+  max-width: 158px;
+  max-height: 14px;
   font-size: 10px;
   font-style: normal;
   font-weight: normal;
@@ -99,16 +97,20 @@
   margin-top: 8px;
 }
 
-.two-lines {
+.text {
   display: flex;
+  justify-content: flex-start;
+  margin-left: 148px;
+}
+
+.two-lines {
   flex-direction: column;
   justify-content: center;
-  padding-left: 148px;
 }
 
 .two-lines__title {
-  width: 690px;
-  height: 58px;
+  max-width: 690px;
+  max-height: 58px;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -118,8 +120,8 @@
 }
 
 .two-lines__paragraph {
-  width: 690px;
-  height: 208px;
+  max-width: 690px;
+  max-height: 208px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -129,8 +131,8 @@
 }
 
 .two-lines__list {
-  width: 690px;
-  height: 90px;
+  max-width: 690px;
+  max-height: 90px;
   font-size: 12px;
   font-style: normal;
   line-height: 18px;
@@ -149,8 +151,6 @@
 }
 
 .image__cards{
-  justify-content: center;
-  width: 1280px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -158,20 +158,19 @@
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
   gap: 16px;
+  justify-content: center;
 }
 
 .image__card {
- width: 284px;
- height: 213px;
+ max-width: 284px;
+ max-height: 213px;
 }
-
 
 .descriptions {
   margin: 92px 148px;
 }
 
 .cards {
-  margin: 0;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -196,13 +195,12 @@
   flex-direction: column;
   justify-content: end;
   padding-right: 40px;
-  width: 460px;
+  max-width: 460px;
 }
 
 .cards__title {
   display: flex;
   align-items: flex-end;
-  width: 460px;
   height: 152px;
   font-style: normal;
   font-weight: 900;
@@ -212,8 +210,7 @@
 }
 
 .cards__image {
-  width: 460px;
-  height: 460px;
+  max-height: 460px;
   padding-top: 48px;
 }
 
@@ -227,15 +224,12 @@
   padding: 0;
 }
 
-
-
-
 .cards__url{  
   text-align: left;
   margin: 106px 0 12px;
   padding: 0;
-  width: 456px;
-  height: 12px;
+  max-width: 456px;
+  max-height: 12px;
   font-weight: normal;
   font-size: 12px;
   line-height: 12px;
@@ -245,8 +239,8 @@
 }
 
 .cards__link {
-  width: 456px;
-  height: 22px;
+  max-width: 456px;
+  max-height: 22px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -261,7 +255,7 @@
 }
 
 .cards__paragraph {
-  width: 484px;
+  max-width: 484px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -277,8 +271,8 @@
 
 .railway {
   background-image: url(../images-3/cover-trains.jpg);
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
+  max-height: 740px;
   margin: auto;
   background-size: cover;
   background-position: center;
@@ -302,8 +296,8 @@
 }
 
 .railway__title{
-  width: 560px;
-  height: 152px;
+  max-width: 560px;
+  max-height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -311,12 +305,11 @@
   text-align: center;
   position: relative;
   margin: auto;
-
 }
 
 .railway__subtitle {
-  width: 360px;
-  height: 66px;
+  max-width: 360px;
+  max-height: 66px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -365,8 +358,7 @@
   text-decoration: none;
   padding-right: 18px;
   color: #FFFFFF;
-  width: 106px;
-  height: 18px;
+
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -375,8 +367,8 @@
 
 .footer__author{
   margin: 0;
-  width: 186px;
-  height: 16px;
+  max-width: 186px;
+  max-height: 16px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -388,12 +380,16 @@
 @media screen and (max-width: 1024px) {
 
   .shelf__image {
-    width: 928px;
-    height: 580px;
+    max-width: 928px;
+    max-height: 580px;
   }
 
   .shelf__link{
     margin-left: 48px;
+  }
+
+  .shelf__subtitle {
+    margin: 0 auto 56px;
   }
 
   .image__cards{
@@ -403,37 +399,164 @@
   }
   
   .image__card {
-   width: 300px;
-   height: 225px;
+   max-width: 300px;
+   max-height: 225px;
   }
 
-
+  .descriptions {
+    margin: 92px 48px;
+  }
 
   .cards__title {
-    width: 440px;
-    height: 152px;
+    max-height: 152px;
   }
   
   .cards__image {
-    width: 440px;
-    height: 440px;
+    max-height: 440px;
   }
   
- 
+  .cards__list_position_left {
+    max-width: 440px;
+    padding-right: 32px;
 
-  
- 
+  }  
+   
   .cards__paragraph {
-    width: 456px;
+    max-width: 456px;
   } 
 
   .railway {
-    width: 1024px;
-    height: 640px;
+    max-width: 1024px;
+    max-height: 640px;
   }
   
   .railway__text {
     padding-top: 195px;
   }
+}
+
+@media screen and (max-width: 768px) {
   
+  .header__logo {
+    margin-left: 24px;
+  }
+  
+  .header__language-links {
+    margin: 48px 24px 0 0;
+  }
+
+
+  .shelf {
+    margin-bottom: 88px;
+   }
+   
+   .shelf__title {
+     margin: 48px auto 32px;
+   }
+   
+   
+   .shelf__image {
+     max-width: 768px;
+     max-height: 480px;
+   }
+   
+   .shelf__link{
+     margin-left: 24px;
+   }
+
+   .text {
+    margin-left: 24px;
+  }
+  
+ 
+  .two-lines__title {
+    max-width: 720px;
+  }
+  
+  .two-lines__paragraph {
+    max-width: 720px;
+  }
+  
+  .two-lines__list {
+    max-width: 720px;
+  }
+
+
+
+
+  
+
+.images{
+  margin-top: 88px;
+}
+
+.image__cards{
+  grid-template-columns: repeat(2, 352px);
+  grid-template-rows: repeat(6, 264px);
+}
+
+.image__card {
+ max-width: 352px;
+ max-height: 264px;
+}
+
+.descriptions {
+  margin: 88px 24px;
+}
+
+.cards__list:last-child {
+  padding-bottom: 73px;
+}
+
+.cards__list_position_left {
+  padding-right: 28px;
+  max-width: 340px;
+}
+
+.cards__title {
+  display: flex;
+  align-items: flex-end;
+  height: 92px;
+  font-size: 42px;
+  line-height: 46px;
+}
+
+.cards__image {
+  max-height: 340px;
+}
+
+.cards__url{  
+  margin: 46px 0 12px;
+  max-width: 352px;
+}
+
+.cards__link {
+  max-width: 352px;
+}
+
+.cards__paragraph {
+  max-width: 352px;
+  font-size: 16px;
+}
+
+.railway {
+  max-width: 768px;
+  max-height: 480px;
+}
+
+.railway__text {
+  padding-top: 115px;
+}
+
+.footer {
+  padding-top: 88px;
+}
+
+.footer__columns {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+
+
 }
