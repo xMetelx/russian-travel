@@ -8,7 +8,6 @@
   background-color: #2A2C2F;
   color: #FFFFFF;
   max-width: 1280px;
-  max-height: 6875px;
   margin: 0 auto;
   -webkit-font-smoothing: antiaLiased;
 }
@@ -41,6 +40,7 @@
   text-decoration: none;
   width: 30px;
   height: 28px;
+  color: #FFFFFF;
 }
 
 .header__language-link:hover {
@@ -50,7 +50,6 @@
 .header__language-link:first-child {
   padding-right: 18px;
 }
-
 
 .shelf {
  margin-bottom: 114px;
@@ -79,7 +78,7 @@
 }
 
 .shelf__image {
-  max-width: 984px;
+  width: 984px;
   height: 615px;
   display: flex;
   justify-content: center;
@@ -166,6 +165,7 @@
  height: 213px;
 }
 
+
 .descriptions {
   margin: 92px 148px;
 }
@@ -174,32 +174,36 @@
   margin: 0;
   list-style: none;
   padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cards__list {
-  margin: 0;
+  padding-bottom: 80px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  padding-bottom: 80px;
+  align-content: flex-start;
 }
 
 .cards__list:last-child {
   padding-bottom: 0;
 }
 
-.cards__list_left {
+.cards__list_position_left {
   display: flex;
   flex-direction: column;
   justify-content: end;
   padding-right: 40px;
+  width: 460px;
 }
 
 .cards__title {
   display: flex;
   align-items: flex-end;
   width: 460px;
-  min-height: 76px;
+  height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -213,15 +217,18 @@
   padding-top: 48px;
 }
 
-.cards__list_right {
+.cards__list_position_right {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
-.cards__list_right:last-child {
+.cards__list_position_right:last-child {
   padding: 0;
 }
+
+
+
 
 .cards__url{  
   text-align: left;
@@ -245,9 +252,8 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  display: flex;
-  padding-bottom: 48px;
   color: #FFFFFF;
+  padding-bottom: 48px;
 }
 
 .cards__link:hover {
@@ -263,6 +269,11 @@
   margin: 0;
   padding-bottom: 26px;
 }
+
+.cards__paragraph:last-child {
+  padding-bottom: 0;
+}
+
 
 .railway {
   background-image: url(../images-3/cover-trains.jpg);
@@ -329,7 +340,7 @@
 }
 
 .footer {
-  padding-top: 94px;
+  padding-top: 92px;
 }
 
 .footer__columns {
@@ -376,8 +387,53 @@
 
 @media screen and (max-width: 1024px) {
 
+  .shelf__image {
+    width: 928px;
+    height: 580px;
+  }
+
+  .shelf__link{
+    margin-left: 48px;
+  }
+
+  .image__cards{
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 225px);
+    gap: 14px;
+  }
+  
+  .image__card {
+   width: 300px;
+   height: 225px;
+  }
 
 
 
+  .cards__title {
+    width: 440px;
+    height: 152px;
+  }
+  
+  .cards__image {
+    width: 440px;
+    height: 440px;
+  }
+  
+ 
+
+  
+ 
+  .cards__paragraph {
+    width: 456px;
+  } 
+
+  .railway {
+    width: 1024px;
+    height: 640px;
+  }
+  
+  .railway__text {
+    padding-top: 195px;
+  }
   
 }
