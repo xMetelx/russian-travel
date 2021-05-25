@@ -481,11 +481,6 @@
     max-width: 720px;
   }
 
-
-
-
-  
-
 .images{
   margin-top: 88px;
 }
@@ -556,7 +551,278 @@
   padding-left: 24px;
   padding-right: 24px;
 }
+}
+
+@media screen and (max-width: 320px) {
+
+  .header__logo {
+    max-width: 142px;
+    max-height: 42px;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  
+  .header__language-links {
+    margin: 30px 16px 0 0;
+  }
+  
+  .header__language-link {
+    max-width: 22px;
+    max-height: 20px;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  
+
+
+
+  .shelf {
+    margin-bottom: 64px;
+   }
+   
+  .shelf__title {
+     max-width: 288px;
+     max-height: 88px;
+     font-size: 40px;
+     line-height: 44px;
+     margin: 48px auto 16px;
+   }
+   
+   .shelf__subtitle {
+     max-width: 288px;
+     max-height: 40px;
+     margin: 0 auto 40px;
+     font-size: 16px;
+     line-height: 20px;
+   }
+   
+   .shelf__image {
+     max-width: 320px;
+     max-height: 200px;
+   }
+   
+   .shelf__link{
+     max-width: 158px;
+     max-height: 14px;
+     font-size: 10px;
+     line-height: 14px;
+     letter-spacing: 0.15em;
+     text-transform: uppercase;
+     margin: 0;
+     margin-left: 18px;
+   }
+
+
+   .text {
+    margin: 16px;
+  }
+  
+  .two-lines__title {
+    max-width: 288px;
+    max-height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0;
+    white-space: normal;
+
+  }
+  
+  .two-lines__paragraph {
+    max-width: 288px;
+    max-height: 520px;
+  }
+  
+  .two-lines__list {
+    max-width: 288px;
+    max-height: 90px;
+  }
+  
+
+
+
+
+
+
+
+  .images{
+    margin-top: 64px;
+  }
+  
+  .image__cards{
+    grid-template-columns: repeat(1, 288px);
+    grid-template-rows: repeat(12, 216px);
+    gap: 12px;
+  }
+  
+  .image__card {
+   max-width: 288px;
+   max-height: 216px;
+  }
+  
+  .descriptions {
+    margin: 64px auto;
+  }
+  
+  .cards {
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .cards__list {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  
+  /*
+  .cards__list_position_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-right: 40px;
+    max-width: 460px;
+  }
+  */
+  
+  .cards__title {
+    display: flex;
+    align-items: flex-end;
+    max-width: 288px;
+    height: 35px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0;
+  }
+  
+  .cards__image {
+    max-width: 320px;
+    max-height: 320px;
+    padding-top: 32px;
+  }
+  
+  .cards__url{  
+    text-align: left;
+    margin: 32px 0 12px;
+    max-width: 288px;
+  }
+  
+  .cards__link {
+    max-width: 288px;
+    max-height: 22px;
+    padding-bottom: 32px;
+  }
+  
+  .cards__paragraph {
+    max-width: 288px;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 26px;
+  }
+  
+  .cards__paragraph:last-child {
+    padding-bottom: 0;
+  }
+  
+  
+  .railway {
+
+    max-width: 320px;
+    max-height: 200px;
+  }
+  
+ 
+  .railway__title{
+    max-width: 288px;
+    max-height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+  
+  .railway__subtitle {
+    max-width: 288px;
+    max-height: 48px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 16px;
+  }
+  
+  .railway__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 33px;
+  }
+  
+  .railway__link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .footer {
+    padding-top: 64px;
+  }
+  
+  .footer__columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding-left: 16px;
+   
+  }
+  
+  .footer__navigation-links {
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  
+  .footer__navigation-link {
+    text-decoration: none;
+    color: #FFFFFF;
+  
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+
+    margin-bottom: 32px;
+  }
+  
+  .footer__author{
+    margin: 0;
+    max-width: 186px;
+    max-height: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 }
+
+
+
+
+
