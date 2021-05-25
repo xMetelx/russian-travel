@@ -7,7 +7,7 @@
   font-family: 'Inter', Arial, sans-serif;
   background-color: #2A2C2F;
   color: #FFFFFF;
-  max-width: 1280px;
+  width: 100vw;
   margin: 0 auto;
   -webkit-font-smoothing: antiaLiased;
 }
@@ -15,8 +15,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  margin: 0;
+  max-width: 1184px;
 }
 
 .header__logo {
@@ -50,7 +49,11 @@
 }
 
 .shelf {
- margin-bottom: 92px;
+ width: 100%;
+ margin: 56px auto 92px;
+ display: flex;
+ flex-direction: column;
+ align-content: center;
 }
 
 .shelf__title {
@@ -61,23 +64,25 @@
   font-size: 96px;
   line-height: 100px;
   text-align: center;
-  margin: 56px auto 32px;
+  margin: auto;
+  margin-bottom: 32px;
 }
 
 .shelf__subtitle {
   max-width: 640px;
   max-height: 72px;
-  margin: 0 auto 64px;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  margin: auto;
+  margin-bottom: 64px;
 }
 
 .shelf__image {
-  max-width: 984px;
-  max-height: 615px;
+  width: calc(100vw - 296px);
+  height: calc(62.5vw * 100 / (100vw - 296px) );
   display: flex;
   justify-content: center;
   margin: auto;
@@ -98,6 +103,7 @@
 }
 
 .text {
+  width: 54vw;
   display: flex;
   justify-content: flex-start;
   margin-left: 148px;
@@ -109,8 +115,6 @@
 }
 
 .two-lines__title {
-  max-width: 690px;
-  max-height: 58px;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -148,15 +152,17 @@
 
 .images{
   margin-top: 92px;
+  max-width: 100%; 
 }
 
 .image__cards{
+
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(auto-fill, 284px);
+  grid-template-rows: repeat(auto-fill, 213px);
   gap: 16px;
   justify-content: center;
 }
@@ -179,29 +185,31 @@
   justify-content: center;
 }
 
+
+
 .cards__list {
   padding-bottom: 80px;
+}
+
+.cards__list_position_top {
   display: flex;
-  flex-direction: row;
-  align-content: flex-start;
+}
+
+.cards__list_position_bottom {
+  display: flex;
+  padding-top: 48px;
 }
 
 .cards__list:last-child {
   padding-bottom: 0;
 }
 
-.cards__list_position_left {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  padding-right: 40px;
-  max-width: 460px;
-}
 
 .cards__title {
+  width: 460px;
   display: flex;
   align-items: flex-end;
-  height: 152px;
+  max-height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -209,24 +217,20 @@
   margin: 0;
 }
 
-.cards__image {
-  max-height: 460px;
-  padding-top: 48px;
-}
-
-.cards__list_position_right {
+.cards__website {
+  max-width: 456px;
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-end;
 }
 
-.cards__list_position_right:last-child {
-  padding: 0;
+.cards__image {
+  max-height: 460px;
 }
 
 .cards__url{  
   text-align: left;
-  margin: 106px 0 12px;
   padding: 0;
   max-width: 456px;
   max-height: 12px;
@@ -247,11 +251,14 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
-  padding-bottom: 48px;
 }
 
 .cards__link:hover {
   opacity: .8;
+}
+
+.cards__text {
+  padding-left: 40px;
 }
 
 .cards__paragraph {
@@ -268,12 +275,11 @@
   padding-bottom: 0;
 }
 
-
 .railway {
   background-image: url(../images-3/cover-trains.jpg);
-  max-width: 1184px;
-  max-height: 740px;
-  margin: auto;
+  width: 1180px;
+  height: 60.95vw;
+  margin: 0 48px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -305,6 +311,7 @@
   text-align: center;
   position: relative;
   margin: auto;
+  padding-top: 19.14vw;
 }
 
 .railway__subtitle {
@@ -324,7 +331,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 245px;
+
 }
 
 .railway__link {
@@ -358,7 +365,6 @@
   text-decoration: none;
   padding-right: 18px;
   color: #FFFFFF;
-
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
