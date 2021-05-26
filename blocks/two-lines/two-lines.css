@@ -1,0 +1,4 @@
+.two-lines {
+  flex-direction: column;
+  justify-content: center;
+}

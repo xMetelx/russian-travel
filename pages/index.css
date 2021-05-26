@@ -1,0 +1,57 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/Inter/inter.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__language-links/header__language-links.css);
+@import url(../blocks/header/__language-link/header__language-link.css);
+
+@import url(../blocks/shelf/shelf.css);
+@import url(../blocks/shelf/__title/shelf__title.css);
+@import url(../blocks/shelf/__subtitle/shelf__subtitle.css);
+@import url(../blocks/shelf/__image/shelf__image.css);
+@import url(../blocks/shelf/__link/shelf__link.css);
+
+@import url(../blocks/text/text.css);
+
+@import url(../blocks/two-lines/two-lines.css);
+@import url(../blocks/two-lines/__title/two-lines__title.css);
+@import url(../blocks/two-lines/__paragraph/two-lines__paragraph.css);
+@import url(../blocks/two-lines/__list/two-lines__list.css);
+@import url(../blocks/two-lines/__list/_font_weight/two-lines__list_font_weight.css);
+
+@import url(../blocks/images/images.css);
+@import url(../blocks/image/__cards/image__cards.css);
+@import url(../blocks/image/__card/image__card.css);
+
+@import url(../blocks/descriptions/descriptions.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__list/_position_top/cards__list_position_top.css);
+@import url(../blocks/cards/__list/_position_bottom/cards__list_position_bottom.css);
+@import url(../blocks/cards/__list/cards__list.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__website/cards__website.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__url/cards__url.css);
+@import url(../blocks/cards/__link/cards__link.css);
+@import url(../blocks/cards/__text/cards__text.css);
+@import url(../blocks/cards/__paragraph/cards__paragraph.css);
+
+@import url(../blocks/railway/railway.css);
+@import url(../blocks/railway/__bg/railway__bg.css);
+@import url(../blocks/railway/__title/railway__title.css);
+@import url(../blocks/railway/__subtitle/railway__subtitle.css);
+@import url(../blocks/railway/__text/railway__text.css);
+@import url(../blocks/railway/__link/railway__link.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__navigation-links/footer__navigation-links.css);
+@import url(../blocks/footer/__navigation-link/footer__navigation-link.css);
+@import url(../blocks/footer/__author/footer__author.css);
+
+
+
+

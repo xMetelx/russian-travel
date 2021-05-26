@@ -1,0 +1,30 @@
+.shelf {
+  max-width: 1280px;
+  margin: 56px auto 92px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .shelf {
+    max-width: 1024px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+
+  .shelf {
+    margin-bottom: 88px;
+    margin-top: 48px;
+   }
+}
+
+@media screen and (max-width: 320px) {
+  
+  .shelf {
+   width: 100%;
+   margin: 48px auto 64px;
+  }
+}

@@ -1,0 +1,31 @@
+.shelf__image {
+  width: calc(100% - 296px);
+  max-height: 62.5%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .shelf__image {
+    width: calc(100% - 96px);
+    max-height: 62.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+     
+  .shelf__image {
+    width: 100%;
+    max-height: 62.5vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+   
+  .shelf__image {
+    width: 100%;
+    max-height: 62.5vw;
+  }
+}

@@ -1,0 +1,23 @@
+.railway__subtitle {
+  max-width: 360px;
+  max-height: 66px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 320px) {
+  
+  .railway__subtitle {
+    max-width: 280px;
+    max-height: 48px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 16px;
+  }
+}

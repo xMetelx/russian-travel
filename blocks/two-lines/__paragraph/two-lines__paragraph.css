@@ -1,0 +1,28 @@
+.two-lines__paragraph {
+  max-width: 690px;
+  max-height: 208px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 0;
+  padding: 40px 0 33px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .two-lines__paragraph {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  
+  .two-lines__paragraph {
+    max-width: 288px;
+    max-height: 520px;
+    font-size: 16px;
+    line-height: 163%;
+    padding: 40px 0 33px;
+  }
+}

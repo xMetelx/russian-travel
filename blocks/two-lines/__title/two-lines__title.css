@@ -1,0 +1,25 @@
+.two-lines__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  white-space: nowrap;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .two-lines__title {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  
+  .two-lines__title {
+    white-space: normal;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0;
+  }
+}

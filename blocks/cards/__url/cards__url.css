@@ -1,0 +1,28 @@
+.cards__url{  
+  text-align: left;
+  padding: 0;
+  max-width: 456px;
+  max-height: 12px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+  .cards__url{  
+    margin: 46px 0 12px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  
+  .cards__url{  
+    margin: 0;
+    padding-bottom: 12px;
+  }
+}

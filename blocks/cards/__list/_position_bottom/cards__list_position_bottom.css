@@ -1,0 +1,20 @@
+.cards__list_position_bottom {
+  display: flex;
+  padding-top: 48px;
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .cards__list_position_bottom {
+    padding-bottom: 73px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .cards__list_position_bottom {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+}

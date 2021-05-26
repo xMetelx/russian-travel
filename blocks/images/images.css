@@ -1,0 +1,18 @@
+.images{
+  margin-top: 92px;
+  max-width: 100%; 
+}
+
+@media screen and (max-width: 768px) {
+
+  .images{
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .images{
+    width: 100%; 
+  }
+}

@@ -1,0 +1,24 @@
+.descriptions {
+  margin: 12px 148px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .descriptions {
+    margin: 92px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .descriptions {
+    margin: 88px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .descriptions {
+    margin: 64px 0;
+  }
+}

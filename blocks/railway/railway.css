@@ -1,0 +1,27 @@
+.railway {
+  display: flex;
+  min-width: 1280px;
+  max-height: 740px;
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .railway {
+    max-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .railway {
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  
+  .railway {
+    max-height: 200px;
+  }
+}
