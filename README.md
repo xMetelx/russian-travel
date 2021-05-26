@@ -6,4 +6,4 @@
 
 В дальнейшем к проекту будет подключен JS для переключения языка и другие штуки. 
 
-Ссылка на проект: https://github.com/xMetelx/russian-travel/index.html 
+Ссылка на проект: https://xmetelx.github.io/russian-travel/
