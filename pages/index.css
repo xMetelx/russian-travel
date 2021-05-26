@@ -23,8 +23,8 @@
 @import url(../blocks/two-lines/__list/_font_weight/two-lines__list_font_weight.css);
 
 @import url(../blocks/images/images.css);
-@import url(../blocks/image/__cards/image__cards.css);
-@import url(../blocks/image/__card/image__card.css);
+@import url(../blocks/images/__cards/images__cards.css);
+@import url(../blocks/images/__card/images__card.css);
 
 @import url(../blocks/descriptions/descriptions.css);
 @import url(../blocks/cards/cards.css);

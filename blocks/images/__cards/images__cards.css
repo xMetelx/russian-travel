@@ -1,4 +1,4 @@
-.image__cards{
+.images__cards{
   list-style: none;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1024px) {
 
-  .image__cards{
+  .images__cards{
     grid-template-columns: repeat(auto-fill, 300px);
     grid-template-rows: repeat(auto-fill, 225px);
     gap: 14px;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
 
-  .image__cards{
+  .images__cards{
     grid-template-columns: repeat(auto-fill, 352px);
     grid-template-rows: repeat(auto-fill, 264px);
   }
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 320px) {
   
-  .image__cards{
+  .images__cards{
     grid-template-columns: repeat(auto-fill, 288px);
     grid-template-rows: repeat(auto-fill, 216px);
     gap: 16px;
