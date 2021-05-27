@@ -1,26 +1,26 @@
-.two-lines__list {
+.text__paragraph {
   max-width: 690px;
-  max-height: 90px;
-  font-size: 12px;
   font-style: normal;
-  line-height: 18px;
   font-weight: normal;
-  list-style: none;
+  font-size: 16px;
+  line-height: 163%;
   margin: 0;
-  padding: 0;
+  padding: 40px 0 33px;
 }
 
 @media screen and (max-width: 768px) {
-  
-  .two-lines__list {
+
+  .text__paragraph {
     max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   
-  .two-lines__list {
+  .text__paragraph {
     max-width: 288px;
-    max-height: 90px;
+    font-size: 16px;
+    line-height: 163%;
+    padding: 40px 0 33px;
   }
 }

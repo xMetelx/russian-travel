@@ -2,4 +2,26 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 245px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .railway__text {
+    padding-top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .railway__text {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .railway__text {
+    padding-top: 33px;
+  }
 }

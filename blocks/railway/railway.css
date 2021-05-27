@@ -1,27 +1,29 @@
 .railway {
   display: flex;
-  min-width: 1280px;
-  max-height: 740px;
+  justify-content: center;
+  max-width: 1280px;
   margin-top: 80px;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 
 @media screen and (max-width: 1024px) {
 
   .railway {
-    max-height: 640px;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
 
   .railway {
-    max-height: 480px;
+    margin: 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   
   .railway {
-    max-height: 200px;
+    margin: 0;
   }
 }

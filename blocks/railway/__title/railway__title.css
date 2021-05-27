@@ -1,6 +1,5 @@
 .railway__title{
   max-width: 560px;
-  max-height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -8,19 +7,16 @@
   text-align: center;
   position: relative;
   margin: auto;
-  padding-top: 10.31vw;
 }
 
 @media screen and (max-width: 320px) {
 
   .railway__title{
-    max-width: 280px;
-    max-height: 70px;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
     text-align: center;
     position: relative;
     margin: auto;
-    padding-top: 10.31vw;
   }
 }
