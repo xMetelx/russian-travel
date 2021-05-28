@@ -1,4 +1,4 @@
-.railway__title{
+.photo__title{
   max-width: 560px;
   font-style: normal;
   font-weight: 900;
@@ -11,12 +11,9 @@
 
 @media screen and (max-width: 320px) {
 
-  .railway__title{
+  .photo__title{
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;
-    text-align: center;
-    position: relative;
-    margin: auto;
   }
 }

@@ -1,4 +1,4 @@
-.shelf__subtitle {
+.lead__subtitle {
   max-width: 640px;
   font-style: normal;
   font-weight: normal;
@@ -11,14 +11,14 @@
 
 @media screen and (max-width: 1024px) {
 
-  .shelf__subtitle {
+  .lead__subtitle {
     margin: 0 auto 56px;
   }
 }
 
 @media screen and (max-width: 320px) {
   
-  .shelf__subtitle {
+  .lead__subtitle {
     max-width: 288px;
     font-size: 16px;
     line-height: 20px;

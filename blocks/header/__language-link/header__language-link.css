@@ -4,10 +4,6 @@
   color: #FFFFFF;
 }
 
-.header__language-link:hover {
-  text-decoration: underline;
-}
-
 .header__language-link:first-child {
   padding-right: 18px;
 }

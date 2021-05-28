@@ -7,12 +7,14 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__language-links/header__language-links.css);
 @import url(../blocks/header/__language-link/header__language-link.css);
+@import url(../blocks/header/__language-link/_active/header__language-link_active.css);
 
-@import url(../blocks/shelf/shelf.css);
-@import url(../blocks/shelf/__title/shelf__title.css);
-@import url(../blocks/shelf/__subtitle/shelf__subtitle.css);
-@import url(../blocks/shelf/__image/shelf__image.css);
-@import url(../blocks/shelf/__link/shelf__link.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__link/lead__link.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 
 @import url(../blocks/intro/intro.css);
 
@@ -20,7 +22,7 @@
 @import url(../blocks/text/__title/text__title.css);
 @import url(../blocks/text/__paragraph/text__paragraph.css);
 @import url(../blocks/text/__list/text__list.css);
-@import url(../blocks/text/__list/_font_weight/text__list_font_weight.css);
+@import url(../blocks/text/__bold/text__bold.css);
 
 @import url(../blocks/images/images.css);
 @import url(../blocks/images/__cards/images__cards.css);
@@ -39,12 +41,11 @@
 @import url(../blocks/cards/__text/cards__text.css);
 @import url(../blocks/cards/__paragraph/cards__paragraph.css);
 
-@import url(../blocks/railway/railway.css);
-@import url(../blocks/railway/__bg/railway__bg.css);
-@import url(../blocks/railway/__title/railway__title.css);
-@import url(../blocks/railway/__subtitle/railway__subtitle.css);
-@import url(../blocks/railway/__text/railway__text.css);
-@import url(../blocks/railway/__link/railway__link.css);
+@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__title/photo__title.css);
+@import url(../blocks/photo/__subtitle/photo__subtitle.css);
+@import url(../blocks/photo/__text/photo__text.css);
+@import url(../blocks/photo/__link/photo__link.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);

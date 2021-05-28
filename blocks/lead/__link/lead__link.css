@@ -1,4 +1,4 @@
-.shelf__link{
+.lead__link{
   max-width: 158px;
   font-size: 10px;
   font-style: normal;
@@ -13,21 +13,21 @@
 
 @media screen and (max-width: 1024px) {
 
-  .shelf__link{
+  .lead__link{
     margin-left: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
 
-  .shelf__link{
+  .lead__link{
     margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   
-  .shelf__link{
+  .lead__link{
     margin-left: 16px;
   }
 }

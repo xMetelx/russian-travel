@@ -1,4 +1,4 @@
-.shelf__title {
+.lead__title {
   max-width: 720px;
   font-style: normal;
   font-weight: 900;
@@ -11,14 +11,14 @@
 
 @media screen and (max-width: 768px) {
    
-  .shelf__title {
+  .lead__title {
     margin: 0 auto 32px;
   }
 }
 
 @media screen and (max-width: 320px) {
   
-  .shelf__title {
+  .lead__title {
     max-width: 288px;
     font-style: normal;
     font-weight: 900;

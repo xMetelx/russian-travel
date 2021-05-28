@@ -1,4 +1,4 @@
-.railway__subtitle {
+.photo__subtitle {
   max-width: 360px;
   font-style: normal;
   font-weight: normal;
@@ -12,9 +12,8 @@
 
 @media screen and (max-width: 320px) {
   
-  .railway__subtitle {
+  .photo__subtitle {
     max-width: 280px;
-    max-height: 48px;
     font-size: 14px;
     line-height: 16px;
     padding-top: 16px;

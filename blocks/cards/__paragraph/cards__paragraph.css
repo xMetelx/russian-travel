@@ -31,13 +31,7 @@
   
   .cards__paragraph {
     max-width: 288px;
-    font-size: 16px;
-    margin: 0;
     padding: 0;
-  }
-
-  .cards__paragraph:last-child {
-    padding-bottom: 0;
   }
 }
 
