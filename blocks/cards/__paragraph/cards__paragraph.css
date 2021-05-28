@@ -6,6 +6,7 @@
   line-height: 163%;
   margin: 0;
   padding-bottom: 26px;
+  padding-left: 40px;
 }
 
 .cards__paragraph:last-child {
@@ -32,6 +33,8 @@
   .cards__paragraph {
     max-width: 288px;
     padding: 0;
+    padding-left: 16px;
+    padding-top: 32px;
   }
 }
 

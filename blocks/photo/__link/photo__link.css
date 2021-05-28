@@ -1,5 +1,32 @@
 .photo__link {
-  color: #FFFFFF;
   text-decoration: none;
-  padding: 0;
+  color: white;
+  background-color: #2A2C2F;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
 }
+  
+  .photo__link::before{
+    opacity: 0.3;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .photo__link:hover::before {
+    opacity: 0.8;
+  }
+
+
+
+
+
+
+
+

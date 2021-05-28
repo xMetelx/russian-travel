@@ -1,24 +1,24 @@
 .descriptions {
-  margin: 12px 148px;
+  margin: 12px 148px 12px 148px;
 }
 
 @media screen and (max-width: 1024px) {
 
   .descriptions {
-    margin: 92px 48px;
+    margin: 0 48px 0 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
 
   .descriptions {
-    margin: 88px 24px;
+    margin: 0 24px 17px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
 
   .descriptions {
-    margin: 64px 0;
+    margin: 52px 0;
   }
 }

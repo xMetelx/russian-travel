@@ -6,12 +6,29 @@
   line-height: 76px;
   text-align: center;
   position: relative;
-  margin: auto;
+  padding-top: 245px;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1040px) {
+
+  .photo__title {
+    padding-top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .photo__title {
+    padding-top: 115px;
+  }
 }
 
 @media screen and (max-width: 320px) {
 
   .photo__title{
+    padding-top: 33px;
     max-width: 288px;
     font-size: 32px;
     line-height: 35px;

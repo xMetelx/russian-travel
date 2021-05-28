@@ -1,11 +1,12 @@
-.cards__list_position_top {
+.cards__top {
   display: flex;
-  padding-top: 80px;
+  padding-bottom: 48px;
 }
 
 @media screen and (max-width: 320px) {
 
-  .cards__list_position_top {
+  .cards__top {
     flex-direction: column;
+    padding-bottom: 32px;
   }
 }

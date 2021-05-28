@@ -1,19 +1,22 @@
-.cards__list_position_bottom {
+.cards__bottom {
   display: flex;
-  padding-top: 48px;
+  flex-direction: row;
+  justify-content: space-between;
   padding-bottom: 80px;
 }
 
+
+
 @media screen and (max-width: 768px) {
 
-  .cards__list_position_bottom {
+  .cards__bottom {
     padding-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 320px) {
 
-  .cards__list_position_bottom {
+  .cards__bottom {
     flex-direction: column;
     padding-bottom: 50px;
   }
