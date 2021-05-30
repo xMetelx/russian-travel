@@ -1,3 +1,21 @@
+.cards__list {
+  max-width: 956px;
+}
+
 .cards__list:last-child {
   padding-bottom: 0;
+}
+
+@media screen and (max-width: 1020px) {
+  
+  .cards__list {
+    max-width: 918px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .cards__list {
+    max-width: 720px;
+  }
 }

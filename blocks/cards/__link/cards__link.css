@@ -6,6 +6,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+  transition-duration: .5s;
 }
 
 .cards__link:hover {
