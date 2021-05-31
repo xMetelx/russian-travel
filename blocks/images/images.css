@@ -1,18 +1,11 @@
 .images{
   margin: 92px auto 0;
-  max-width: 100vw; 
+  width: 100%; 
 }
 
 @media screen and (max-width: 768px) {
 
   .images{
     margin-top: 88px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-
-  .images{
-    width: 100%; 
   }
 }
