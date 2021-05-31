@@ -20,6 +20,7 @@
 
   .cards__title {
     max-width: 340px;
+    width: 100%;
     font-size: 42px;
     line-height: 46px;
     padding: 0;

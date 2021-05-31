@@ -10,6 +10,7 @@
   
   .cards__list {
     max-width: 918px;
+    margin: auto;
   }
 }
 
@@ -17,5 +18,6 @@
 
   .cards__list {
     max-width: 720px;
+    width: 100%;
   }
 }

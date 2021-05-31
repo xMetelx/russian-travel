@@ -13,6 +13,9 @@
   transition-duration: .5s;
 }
 
+
+
+
 @media screen and (max-width: 320px) {
    
   .footer__navigation-link {
@@ -22,4 +25,6 @@
     line-height: 24px;
     margin-bottom: 32px;
   }
+
+  
 }

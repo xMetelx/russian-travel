@@ -9,6 +9,14 @@
   margin-right: 48px;
 }
 
+@media screen and (max-width: 768px) {
+  
+  .footer__author {
+    margin: 0;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
  
   .footer__author{

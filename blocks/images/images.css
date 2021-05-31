@@ -1,6 +1,9 @@
 .images{
   margin: 92px auto 0;
   width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 @media screen and (max-width: 768px) {
