@@ -15,9 +15,13 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   
   .text__paragraph {
     max-width: 288px;
+    padding: 0;
+    padding-bottom: 33px;
+    padding-top: 40px;
+    margin: 0;
   }
 }

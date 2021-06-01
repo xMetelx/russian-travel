@@ -19,10 +19,11 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   
   .intro {
+    margin: 0;
+    margin-left: 16px;
     width: 100%;
-    margin: 0 16px;
   }
 }
