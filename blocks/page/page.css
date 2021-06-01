@@ -2,15 +2,8 @@
   font-family: 'Inter', Arial, sans-serif;
   background-color: #2A2C2F;
   color: #FFFFFF;
-  max-width: 1280px;
   margin: 0 auto;
- 
   min-width: 320px;
-
   -webkit-font-smoothing: antialiased;
-  /*
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  */
+  padding: auto;
 }

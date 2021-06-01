@@ -1,8 +1,6 @@
 .footer__navigation {
   margin: 0;
-  padding-bottom: 24px;
-  padding-left: 48px;
-  padding-right: 48px;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -11,3 +9,6 @@
     padding: 0;
   }
 }
+
+
+
