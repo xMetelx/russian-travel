@@ -10,7 +10,7 @@
 }
 
 .photo__link::before {
-  content: ""; 
+  content: "";
   top: 0;
   left: 0;
   right: 0;
@@ -19,7 +19,7 @@
 }
 
 .photo__link::before:hover {
-  background-color: #2A2C2F; 
+  background-color: #2A2C2F;
   opacity: .8;
   transition-duration: 1s;
 }
