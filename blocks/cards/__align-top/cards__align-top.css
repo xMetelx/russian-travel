@@ -1,11 +1,11 @@
-.cards__top {
+.cards__align-top {
   display: flex;
   padding-bottom: 48px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-  .cards__top {
+  .cards__align-top {
     flex-direction: column;
     padding-bottom: 32px;
   }

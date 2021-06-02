@@ -1,26 +1,25 @@
 .photo__link {
   text-decoration: none;
   color: white;
-  position: absolute;
+  content: "";
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  position: relative;
 }
 
 .photo__link::before {
-  background-color: #2A2C2F;
-  opacity: 0.3;
-  content: "";
-  position: absolute;
+  content: ""; 
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  position: relative;
 }
 
-.photo__link:hover {
+.photo__link::before:hover {
+  background-color: #2A2C2F; 
   opacity: .8;
   transition-duration: 1s;
 }
-

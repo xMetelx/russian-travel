@@ -1,4 +1,4 @@
-.cards__bottom {
+.cards__align-bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -7,14 +7,14 @@
 
 @media screen and (max-width: 768px) {
 
-  .cards__bottom {
+  .cards__align-bottom {
     padding-bottom: 73px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-  .cards__bottom {
+  .cards__align-bottom {
     flex-direction: column;
     padding-bottom: 50px;
   }

@@ -19,9 +19,5 @@
   
   .text__paragraph {
     min-width: 288px;
-    padding: 0;
-    padding-bottom: 33px;
-    padding-top: 40px;
-    margin: 0;
   }
 }
