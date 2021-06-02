@@ -11,20 +11,3 @@
   color: #AAAAAA;
   margin-bottom: 12px;  
 }
-
-@media screen and (max-width: 768px) {
-
-  .cards__url{  
-    margin: 0;
-    margin-bottom: 12px;
-    max-width: 352px;
-  }
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  
-  .cards__url{  
-    margin: 0;
-    padding-bottom: 12px;
-  }
-}

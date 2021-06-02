@@ -2,19 +2,30 @@
   text-decoration: none;
   max-width: 30px;
   color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+}
+
+.header__language-link:visited {
+  text-decoration: underline;
+}
+
+.header__language-link:hover {
+  opacity: .8;
 }
 
 .header__language-link:first-child {
-  padding-right: 18px;
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
   .header__language-link {
     max-width: 22px;
-  }
-
-  .header__language-link:first-child {
-    padding-right: 18px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
