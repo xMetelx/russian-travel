@@ -8,14 +8,10 @@
   line-height: 28px;
   text-align: right;
   padding-left: 18px;
-}
-
-.header__language-link:visited {
-  text-decoration: underline;
+  transition: .5s;
 }
 
 .header__language-link:hover {
-  text-decoration: underline;
   opacity: .8;
 }
 
