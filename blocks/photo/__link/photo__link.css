@@ -1,26 +1,7 @@
 .photo__link {
-  color: white;
   display: block;
   width: 100%;
   text-decoration: none;
-  position: relative;
   z-index: 99;
   min-height: 740px;
 }
-
-.photo__link::before {
-  background-color: #2A2C2F;
-  content: "";
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0.3;
-  position: absolute;
-}
-
-.photo__link:hover {
-  opacity: .8;
-  transition-duration: 1s;
-  position: absolute;
- }

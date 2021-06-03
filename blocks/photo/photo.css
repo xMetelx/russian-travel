@@ -7,6 +7,23 @@
   margin: 0 48px;
   position: relative;
   box-sizing: border-box;
+  z-index: 1;
+}
+
+.photo::before {
+  background-color: #2A2C2F;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+}
+
+.photo:hover::before{
+  opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
