@@ -12,7 +12,7 @@
   z-index: 3;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1024px) {
 
   .photo__title {
     padding-top: 195px;

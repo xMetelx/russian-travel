@@ -5,3 +5,24 @@
   z-index: 99;
   min-height: 740px;
 }
+
+
+@media screen and (max-width: 1024px) {
+
+  .photo__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .photo__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .photo__link {
+    min-height: 200px;
+  }
+}
